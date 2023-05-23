@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
-    <link rel="stylesheet" href="./img/favicon.png">
+    <link rel="icon" href="./img/favicon.png">
     <link rel="stylesheet" href="css/style.css">
     <!--Fontawesome kit: -->
     <script src="https://kit.fontawesome.com/5106b1386b.js" crossorigin="anonymous"></script>
@@ -31,7 +31,7 @@
                 </li>
                 <li>
                     <div class="border-sesion">
-                        <a href="" class="sesion-icon"><span>Iniciar sesión</span></a>
+                        <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-1055973759%3A1684863192543315&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&hl=es&ifkv=Af_xneEduxYF-Dx3bf4et0bZDPSUegMRCsMXTR0ZZZ42VzTt3hGVtdi9qTMYPI6uwiTT7mJagET_kw&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="sesion-icon"><span>Iniciar sesión</span></a>
                     </div>
                 </li>
             </ul>
@@ -42,18 +42,19 @@
         <div class="content-container">
             <img class="logo-img" src="./img/logo.png">
             <div class="search-bar">
-                <span class="material-symbols-outlined">search</span>
+                <span class="material-symbols-outlined" id="search">search</span>
                 <input type="text" class="search-input">
-                <span class="material-symbols-outlined">mic</span>
-                <img src="./img/2023-05-22 13 25 00.png">
+                <span class="material-symbols-outlined" id="mic">mic</span>
+                <span class="material-symbols-outlined" id="cam">photo_camera</span>
             </div>
             <div class="search-btns">
-                <button class="google-search-btn">Búsqueda con Google</button>
+                <button class="google-search-btn">Buscar con Google</button>
                 <button class="lucky-search-btn">Voy a tener suerte</button>
             </div>
             <div class="language">
                 <p>Ofrecido por Google en: <a href="">Español (Latinoamérica)</a></p>
             </div>
+        </div>
     </section>
     <!-- Footer -->
     <footer>
