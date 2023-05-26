@@ -179,6 +179,14 @@ header {
     border: none;
 }
 
+.search-input {
+    margin-left: 10px;
+}
+
+.search-bar input:focus {
+    outline: none; /*quitar bordes al hacer click*/
+}
+
 .search-btns {
     margin-top: 29px;
 }
@@ -283,4 +291,126 @@ footer {
 
 .lower-right-footer li {
     margin-right: 15px;
+}
+
+/* Responsive Desing */
+
+/*Small Mobile*/
+
+/* #mic {
+    padding-right: 30px;
+}
+
+#cam {
+    padding-right: 100px;
+} */
+
+
+@media only screen and (max-width: 449px) {
+    .lower-footer {
+        padding: 0px;
+    }
+
+    .lower-left-footer li {
+        margin-bottom: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 459px) {
+    .lower-left-footer li {
+        width: 190px;
+        padding: 3px;
+    }
+}
+
+@media only screen and (max-width: 545px) {
+
+    .lower-left-footer li {
+        width: 90px;
+        margin-bottom: 10px;
+    }
+
+    .lower-right-footer li {
+        margin-top: 23px;
+        margin-bottom: 20px;
+    }
+}
+
+/*Mobile and tablet*/
+@media only screen and (max-width: 650px) {
+    /* Navbar */
+    .navbar ul {
+        font-size: 10px;
+    }
+
+    .navbar ul li {
+        margin-left: 9px;
+    }
+
+    .menu-icon,
+    .user-icon span {
+        font-size: 14px;
+    }
+
+    .circle-shadow {
+        height: 30px;
+        width: 30px;
+    }
+
+    .content-container {
+        margin-top: 20px;
+    }
+
+    /* Logo */
+    .logo-img {
+        width: 200px;
+    }
+
+    /* Search Bar */
+    .search-bar {
+        width: 90%;
+        height: 35px;
+    }
+
+    .search-bar i {
+        font-size: 14px;
+    }
+
+    /* Buttons */
+    .search-btns button {
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .google-search-btn {
+        width: 100px;
+    }
+    
+    .lucky-search-btn {
+        width: 120px;
+    }
+
+    /* Language */
+    .language {
+        font-size: 12px;
+    }
+
+    /* Footer */
+    footer {
+        height: 150px;
+    }
+
+    .upper-footer {
+        height: 50px;
+    }
+
+    .lower-footer {
+        height: 100px;
+        flex-direction: column;
+    }
+
+    .lower-left-footer {
+        flex-wrap: wrap;
+    }
 }
